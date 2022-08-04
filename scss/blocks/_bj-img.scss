@@ -1,0 +1,74 @@
+.bottom-section {
+  background-image: url("../../images/1cirasm.svg"),
+    url("../../images/2cirasm.svg"), url("../../images/person.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 261px) calc(50% + 20px),
+    calc(50% - 27px) calc(50% + 106px), calc(50% + 182px) calc(50% + 194px);
+}
+.bottom-section {
+}
+.bj-img {
+  margin-top: 148px;
+  display: flex;
+  justify-content: space-between;
+}
+.bj-img__left {
+  width: 225px;
+}
+.img-left__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: 2.304px;
+  color: #333333;
+}
+.img-left-strong {
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 2.688px;
+
+  color: #504e4e;
+}
+.bj-img__left > p {
+  margin-left: 15px;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1.26px;
+  color: #5b5858;
+}
+.bj-img__right {
+  width: 251px;
+  padding-top: 546px;
+  display: flex;
+  align-self: flex-end;
+}
+.bj-img__right > p {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1.26px;
+  color: #5b5858;
+}
+@media only screen and(max-width:879px) {
+    .bottom-section{
+        background-position: calc(50% - 30px) calc(50% + -101px),
+          calc(50% - 30px) calc(50% + 106px), calc(50% + -29px) calc(50% + 119px);
+      }
+      .bj-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .bj-img__right {
+        width: 251px;
+        padding-top: 0;
+        display: block;
+        align-self: center;
+    }
+    .bj-img__left > p {
+        margin-left: 0px;
+    }
+    .bj-img__left{
+        width: 251px;
+    }
+}

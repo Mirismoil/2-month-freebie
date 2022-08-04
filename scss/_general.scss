@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/Images.png");
+    background-repeat: no-repeat;
+    background-size: 100% 640px;
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSans', sans-serif ;
+    font-family: 'Oswald' , sans-serif;
+}
+
+img{
+    object-fit: cover;
+}
