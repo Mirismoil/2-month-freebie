@@ -347,6 +347,7 @@ body {
   background-image: url("../images/Images.png");
   background-repeat: no-repeat;
   background-size: 100% 640px;
+  transition: 0.3s ease-in-out;
   margin: 0;
   padding: 0;
   font-family: "OpenSans", sans-serif;
